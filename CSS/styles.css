@@ -1,0 +1,40 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{background:red;
+	color:yellow;}
+
+/*Comentario*/
+/*por elemento, class[.nombreClase], id[#nombreId] */
+
+.main-nav {
+list-style:none;
+background-color:blue;
+/**/
+}
+
+.main-nav-item {
+display:inline-block;
+}
+
+.main-nav-item a{
+color:white;
+text-decoration:none;
+background-color:gray;
+}
+
+.main-nav-item a:hover{/*Pseudo-classes*/
+color:#ADD8E6;
+}
+
+.main-nav-item a:active{
+color:orange;
+}
+
+.main-nav-item a::after{
+content: "|";
+}
+

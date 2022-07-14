@@ -1,0 +1,50 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+
+header {
+background-color:blue;
+padding:15px;
+margin:15px;
+}
+
+.main-nav {
+list-style:none;
+
+text-align: right;
+}
+
+.main-nav-item {
+display:inline-block;
+background-color:white;
+padding:15px;
+margin:10px;
+}
+
+div {
+background-color:red;
+/*padding:10px;
+margin:10px;*/
+margin:auto;
+width:50px;
+/*display:inline-block;*/
+text-align:center;
+}
+
+section {
+background-color:#89CFF0;
+margin:15px;
+padding:15px;
+display:flex;
+flex-direction:row;
+height:1000px;
+}
+
+footer {
+background-color:#F0FFFF;
+margin:15px;
+padding:15px;
+}
